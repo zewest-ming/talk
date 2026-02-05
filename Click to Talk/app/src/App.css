@@ -1,0 +1,95 @@
+/* 辅助沟通助手 - 专用样式 */
+
+/* 确保按钮有足够大的点击区域 */
+button {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 防止文字被选中 */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* 按钮点击效果 */
+.communication-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.communication-btn::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+}
+
+.communication-btn:active::after {
+  width: 200%;
+  height: 200%;
+}
+
+/* 语音播放动画 */
+@keyframes sound-wave {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.sound-wave {
+  animation: sound-wave 0.5s ease-in-out infinite;
+}
+
+/* 大字体模式 */
+.large-text {
+  font-size: 1.5rem;
+}
+
+/* 高对比度模式支持 */
+@media (prefers-contrast: high) {
+  .communication-btn {
+    border-width: 4px;
+  }
+}
+
+/* 减少动画支持 */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 移动端优化 */
+@media (max-width: 640px) {
+  .grid {
+    gap: 0.75rem;
+  }
+}
+
+/* 平板优化 */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .grid {
+    gap: 1rem;
+  }
+}
+
+/* 桌面端优化 */
+@media (min-width: 1025px) {
+  .grid {
+    gap: 1.5rem;
+  }
+}
