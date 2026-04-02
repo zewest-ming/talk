@@ -953,6 +953,72 @@ export const articles: Article[] = [
 
   // Parenting Tips - Additional
   {
+    slug: "potty-training-complete-guide",
+    category: "parenting-tips",
+    title: "Potty Training: When to Start and How to Succeed",
+    excerpt: "Most children are ready for potty training between 18 and 36 months. Here's how to recognize the signs of readiness, choose a method, and handle setbacks without stress.",
+    content: `
+<h2>Signs Your Child Is Ready</h2>
+<p>Readiness — not age — is the key factor. Most children show signs between 18–36 months, but pushing before they're ready leads to longer, more frustrating training. Look for: staying dry for 2+ hours at a stretch, showing interest in the bathroom or others' toilet use, pulling at a wet or dirty diaper, and being able to follow simple two-step instructions.</p>
+
+<h2>Choosing a Method</h2>
+
+<h3>Child-Led (Gradual) Approach</h3>
+<p>Introduce the potty casually, let your child sit on it with clothes on first, read books about toileting, and follow their lead over weeks or months. Low pressure, low stress, slower pace.</p>
+
+<h3>3-Day Method (Intensive Training)</h3>
+<p>Clear three days at home, ditch diapers completely (except sleep), watch closely for cues, and rush to the potty at the first sign of needing to go. Requires dedication but can work quickly for children who are truly ready.</p>
+
+<h3>Scheduled Sits</h3>
+<p>Take your child to the potty at regular intervals (every 1.5–2 hours) regardless of whether they say they need to go. Pairs well with both approaches above.</p>
+
+<h2>Handling Accidents</h2>
+<p>Stay calm. Accidents are normal and are not signs of failure. Clean up matter-of-factly without shame or punishment. Negative reactions increase anxiety, which makes training harder. Praise success genuinely but don't over-celebrate — make it feel normal, not high-stakes.</p>
+
+<h2>Night Training Comes Later</h2>
+<p>Nighttime dryness is largely controlled by a hormone (ADH) that matures independently of daytime training — often 6 months to 2 years later. Don't pressure night dryness until your child wakes consistently dry. Use a mattress protector and stay relaxed about it.</p>
+
+<h2>When to Talk to Your Doctor</h2>
+<p>If your child shows no readiness signs by age 3, has frequent painful urination, has been trained but regresses significantly (especially after a stress-free period), or has never had bowel control by age 4, discuss with your pediatrician.</p>
+    `,
+    author: "Lisa Tanner, Child Psychologist",
+    date: "2026-02-14",
+    readTime: "7 min read",
+    tags: ["potty training", "toddler", "toilet training", "parenting"],
+  },
+  {
+    slug: "raising-emotionally-intelligent-children",
+    category: "parenting-tips",
+    title: "How to Raise an Emotionally Intelligent Child",
+    excerpt: "Emotional intelligence predicts success, relationships, and mental health more than IQ. Here's how to nurture it from the earliest years.",
+    content: `
+<h2>What Is Emotional Intelligence?</h2>
+<p>Emotional intelligence (EQ) is the ability to recognize, understand, manage, and express emotions — and to recognize and respond to emotions in others. Research by psychologist John Gottman and others shows that children with high EQ have better friendships, perform better academically, handle stress more effectively, and have fewer behavioral problems.</p>
+
+<h2>Emotion Coaching: The Core Skill</h2>
+<p>Gottman's research identified "emotion coaching" as the most powerful parenting style for developing EQ. It involves four steps: noticing and naming your child's emotion, treating emotions as opportunities for connection, empathizing before problem-solving, and setting limits while validating feelings.</p>
+<p>Instead of "Stop crying, it's not a big deal," try "I can see you're really disappointed. It's hard when things don't go the way we hoped. Let's figure out what to do next."</p>
+
+<h2>Building EQ from Birth</h2>
+<ul>
+<li><strong>Infants:</strong> Respond consistently to cries. This teaches that emotions signal needs that get met — the foundation of emotional security.</li>
+<li><strong>Toddlers:</strong> Name emotions out loud: "You're frustrated that the blocks fell down." Provide a feelings vocabulary.</li>
+<li><strong>Preschoolers:</strong> Read books with emotional themes. Ask "How do you think she feels?" Point out emotions in others.</li>
+<li><strong>School age:</strong> Problem-solve together after emotions settle. Teach that all feelings are okay; not all behaviors are.</li>
+</ul>
+
+<h2>Model What You Want to See</h2>
+<p>Children learn emotional regulation primarily by watching adults. When you say "I'm feeling frustrated right now, so I'm going to take a few deep breaths before I respond," you're teaching an invaluable lesson. Don't hide all your emotions — healthy, regulated expression of real feelings is the best teacher.</p>
+
+<h2>The Power of Play</h2>
+<p>Dramatic play (playing house, superheroes, doctor) is one of the most powerful ways young children process and practice emotions. Resist over-scheduling — unstructured play time is essential for emotional development.</p>
+    `,
+    author: "Lisa Tanner, Child Psychologist",
+    date: "2026-02-28",
+    readTime: "6 min read",
+    tags: ["emotional intelligence", "EQ", "parenting", "child development"],
+  },
+  {
     slug: "sleep-training-methods-compared",
     category: "parenting-tips",
     title: "Sleep Training Methods Compared: CIO, Ferber, and No-Cry Options",
