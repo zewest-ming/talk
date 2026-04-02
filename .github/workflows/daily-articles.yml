@@ -1,0 +1,31 @@
+name: Daily Articles
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # 每天 UTC 11:00 = 北京时间 19:00
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  add-articles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install anthropic
+
+      - name: Generate and add 2 articles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python .github/scripts/add_articles.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add healthkids/lib/data.ts
+          git diff --staged --quiet || git commit -m "Add 2 daily articles [skip ci]"
+          git push
