@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "branch=$(git -C /home/user/talk branch --show-current 2>/dev/null); unpushed=$(git -C /home/user/talk log origin/$branch..HEAD --oneline 2>/dev/null | wc -l | tr -d ' '); unstaged=$(git -C /home/user/talk status --porcelain 2>/dev/null | wc -l | tr -d ' '); if [ \"$unpushed\" -gt 0 ] || [ \"$unstaged\" -gt 0 ]; then git -C /home/user/talk push -u origin \"$branch\" 2>/dev/null && echo '{\"systemMessage\": \"Git push successful!\"}' || echo '{\"systemMessage\": \"Auto-push failed (403). Changes saved locally. Push will be retried when GitHub MCP tools are available.\"}'; fi",
+            "timeout": 15,
+            "statusMessage": "Pushing to GitHub..."
+          }
+        ]
+      }
+    ]
+  }
+}
