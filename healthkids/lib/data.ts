@@ -1047,6 +1047,215 @@ export const articles: Article[] = [
     readTime: "7 min read",
     tags: ["sleep training", "Ferber", "baby sleep", "parenting"],
   },
+  {
+    slug: "language-development-toddlers-1-3",
+    category: "development",
+    title: "Language Development in Toddlers: What to Expect Ages 1–3",
+    excerpt: "From first words to full sentences — a guide to speech milestones and when to seek help.",
+    content: `
+<h2>The Language Explosion</h2>
+<p>Between ages 1 and 3, children go from saying a handful of words to speaking in short sentences. This rapid growth is one of the most exciting — and sometimes worrying — stages of development. Knowing what's typical helps you support your child and catch delays early.</p>
+
+<h2>12–18 Months</h2>
+<p>Most children say their first real word around 12 months. By 18 months, expect 10–20 words and an ability to follow simple instructions like "come here" or "give me the ball." Children at this age understand far more than they can say.</p>
+
+<h2>18–24 Months</h2>
+<p>Vocabulary grows rapidly — often adding several new words per week. By age 2, most toddlers combine two words ("more milk," "daddy go") and have 50+ words. Strangers should understand about half of what they say.</p>
+
+<h2>2–3 Years</h2>
+<p>Three-word phrases appear and grow into simple sentences. By age 3, children typically have 200–1,000 words, ask "why" constantly, and are understood by strangers about 75% of the time. They begin to grasp basic grammar rules even if imperfectly.</p>
+
+<h2>How to Support Language Growth</h2>
+<ul>
+<li><strong>Talk constantly:</strong> Narrate what you're doing. "Now I'm cutting the apple. It's red!"</li>
+<li><strong>Read aloud every day:</strong> Even 10 minutes of shared reading dramatically boosts vocabulary.</li>
+<li><strong>Expand what they say:</strong> If they say "dog," you say "Yes, a big brown dog!"</li>
+<li><strong>Limit screen time:</strong> Passive viewing doesn't build language the way live conversation does.</li>
+</ul>
+
+<h2>Red Flags to Watch For</h2>
+<p>Talk to your pediatrician if your child: has no words by 16 months, loses language skills at any age, or is not combining words by 24 months. Early speech therapy is highly effective and works best when started young.</p>
+    `,
+    author: "Dr. Priya Shah, Developmental Pediatrician",
+    date: "2026-02-10",
+    readTime: "6 min read",
+    tags: ["language development", "speech milestones", "toddler", "development"],
+  },
+  {
+    slug: "social-emotional-development-preschool",
+    category: "development",
+    title: "Social and Emotional Development in Preschoolers (Ages 3–5)",
+    excerpt: "How children learn to manage feelings, make friends, and understand others during the preschool years.",
+    content: `
+<h2>Why Social-Emotional Skills Matter</h2>
+<p>Research consistently shows that social-emotional skills — the ability to understand and manage emotions, build relationships, and empathize with others — are as important as academic skills for long-term success. The preschool years are a critical window for building this foundation.</p>
+
+<h2>What to Expect at Age 3</h2>
+<p>Three-year-olds are beginning to understand that others have feelings too, but they still see the world primarily through their own perspective. Expect big emotions, difficulty sharing, and parallel play — playing near other children rather than with them.</p>
+
+<h2>Ages 4–5: Growing Social Awareness</h2>
+<p>By age 4–5, children begin true cooperative play, negotiate roles in games, and form genuine friendships. They become better at waiting their turn and expressing feelings in words rather than tantrums. Empathy deepens — they may comfort a crying friend.</p>
+
+<h2>Emotional Regulation Strategies for This Age</h2>
+<ul>
+<li><strong>Name the feeling:</strong> "You look really frustrated right now. It's hard when the tower falls."</li>
+<li><strong>Teach calming techniques:</strong> Deep breathing ("smell the flowers, blow out the candles") works well for this age.</li>
+<li><strong>Role-play scenarios:</strong> Act out social situations to practice responses before they happen.</li>
+<li><strong>Read emotion-focused books:</strong> Stories help children explore feelings safely.</li>
+</ul>
+
+<h2>Supporting Friendship Skills</h2>
+<p>Arrange regular playdates with one child at a time — smaller groups are less overwhelming. Coach from the sidelines rather than intervening immediately. Let children work through minor conflicts; step in only when someone is being hurt.</p>
+
+<h2>When to Seek Support</h2>
+<p>If your child is consistently aggressive, extremely withdrawn, or has intense fears that interfere with daily life, speak with your pediatrician. Many challenges at this age respond very well to play therapy and parent coaching.</p>
+    `,
+    author: "Dr. Aisha Okonkwo, Child Psychologist",
+    date: "2026-02-17",
+    readTime: "7 min read",
+    tags: ["social development", "emotional intelligence", "preschool", "development"],
+  },
+  {
+    slug: "second-trimester-guide",
+    category: "pregnancy",
+    title: "The Second Trimester: Your Complete Guide to Weeks 13–27",
+    excerpt: "Often called the 'golden trimester' — what to expect, key tests, and how to stay healthy.",
+    content: `
+<h2>Welcome to the Second Trimester</h2>
+<p>For most pregnant women, the second trimester brings welcome relief. Morning sickness usually fades, energy returns, and the risk of miscarriage drops significantly. You'll begin to look visibly pregnant and, around week 18–22, feel your baby move for the first time.</p>
+
+<h2>Physical Changes</h2>
+<p>Your uterus expands rapidly during these weeks. You may notice a darkening line down your abdomen (linea nigra), round ligament pain as the uterus stretches, and growing breasts. Nasal congestion and bleeding gums are common due to increased blood volume.</p>
+
+<h2>Key Appointments and Tests</h2>
+<ul>
+<li><strong>Anatomy scan (18–22 weeks):</strong> An ultrasound that checks fetal organs and can reveal the sex if desired.</li>
+<li><strong>Quad screen (15–20 weeks):</strong> A blood test screening for chromosomal conditions.</li>
+<li><strong>Glucose challenge test (24–28 weeks):</strong> Screens for gestational diabetes.</li>
+<li><strong>Regular prenatal visits:</strong> Usually every 4 weeks during this trimester.</li>
+</ul>
+
+<h2>Feeling Baby Move</h2>
+<p>First-time mothers typically feel movement (quickening) between weeks 18–22. It starts as fluttering or bubbles. By week 24–25, movements become more distinct. Your provider may ask you to track "kick counts" later in pregnancy.</p>
+
+<h2>Nutrition Focus</h2>
+<p>Calcium needs increase — aim for 1,000 mg daily from dairy, fortified foods, or leafy greens. Iron-rich foods remain important as blood volume expands. Continue your prenatal vitamin with folate and DHA.</p>
+
+<h2>Exercise and Rest</h2>
+<p>Most forms of moderate exercise are safe and beneficial — walking, swimming, and prenatal yoga all help manage weight gain and prepare your body for labor. Avoid lying flat on your back after week 20, as this can restrict blood flow.</p>
+    `,
+    author: "Dr. Rachel Kim, OB-GYN",
+    date: "2026-02-24",
+    readTime: "7 min read",
+    tags: ["second trimester", "pregnancy", "prenatal care", "anatomy scan"],
+  },
+  {
+    slug: "preparing-for-labor-birth-plan",
+    category: "pregnancy",
+    title: "Preparing for Labor: How to Write a Birth Plan That Works",
+    excerpt: "A practical guide to creating a birth plan and what to realistically expect during labor.",
+    content: `
+<h2>What Is a Birth Plan?</h2>
+<p>A birth plan is a written document that communicates your preferences for labor and delivery to your medical team. It's not a guarantee — birth is unpredictable — but it helps ensure your wishes are known and opens important conversations with your provider before the big day.</p>
+
+<h2>What to Include</h2>
+<ul>
+<li><strong>Pain management preferences:</strong> Epidural, nitrous oxide, natural techniques, or a combination.</li>
+<li><strong>Labor environment:</strong> Music, lighting, freedom to move, water immersion if available.</li>
+<li><strong>Support people:</strong> Who you want present and their roles.</li>
+<li><strong>Fetal monitoring:</strong> Continuous electronic monitoring vs. intermittent auscultation.</li>
+<li><strong>Interventions:</strong> Your preferences around IV, episiotomy, and assisted delivery if needed.</li>
+<li><strong>After birth:</strong> Delayed cord clamping, immediate skin-to-skin, breastfeeding initiation.</li>
+<li><strong>If cesarean is needed:</strong> Preferences for a "gentle cesarean," who is present, skin-to-skin in the OR.</li>
+</ul>
+
+<h2>Keep It Realistic and Flexible</h2>
+<p>The best birth plans are short (one page), focused on priorities, and include a note that you're open to adjustments based on medical necessity. A rigid plan can create conflict with staff and distress if things don't go as planned.</p>
+
+<h2>How to Use Your Birth Plan</h2>
+<p>Review it with your OB or midwife before 36 weeks. Bring several printed copies to the hospital — one for your chart, one for the nursing staff, one for your partner. Introduce yourself and your plan warmly; collaborative relationships lead to better outcomes.</p>
+
+<h2>Preparing Beyond the Plan</h2>
+<p>Take a childbirth education class, practice breathing techniques, and tour your birth location. The more informed and prepared you feel, the more confident you'll be handling whatever labor brings.</p>
+    `,
+    author: "Sarah Greenfield, Certified Nurse Midwife",
+    date: "2026-03-03",
+    readTime: "6 min read",
+    tags: ["birth plan", "labor", "pregnancy", "childbirth preparation"],
+  },
+  {
+    slug: "kitchen-safety-with-young-children",
+    category: "safety",
+    title: "Kitchen Safety with Young Children: Preventing Burns and Cuts",
+    excerpt: "The kitchen is the most common site of childhood household injuries. Here's how to keep it safe.",
+    content: `
+<h2>Why the Kitchen Is High-Risk</h2>
+<p>The kitchen contains hot surfaces, sharp tools, heavy objects, and toxic cleaning products — all at heights accessible to curious toddlers. Burns from hot liquids are one of the leading causes of injury in children under 5. Proactive safety measures make a significant difference.</p>
+
+<h2>Stove and Oven Safety</h2>
+<ul>
+<li>Always use back burners when possible, with pot handles turned inward.</li>
+<li>Install a stove knob cover to prevent children from turning on burners.</li>
+<li>Never hold a child while cooking at the stove.</li>
+<li>Keep a "kid-free zone" of at least 3 feet around the stove.</li>
+<li>Use oven mitts every time — children learn by watching you model safe behavior.</li>
+</ul>
+
+<h2>Hot Liquid Hazards</h2>
+<p>Spilled hot drinks cause more scalds than any other source. Never carry hot drinks while holding a child, and keep cups away from table and counter edges. Set your water heater to 48°C (120°F) to prevent scalds at the tap.</p>
+
+<h2>Sharp Objects</h2>
+<ul>
+<li>Store knives in a locked drawer or a knife block out of reach.</li>
+<li>Teach older children (5+) knife safety as a skill, rather than simply forbidding them.</li>
+<li>Dispose of broken glass immediately and carefully — use damp paper towels to pick up small shards.</li>
+</ul>
+
+<h2>Cleaning Products and Medications</h2>
+<p>Store all cleaning products in a locked cabinet below the counter — never under the sink without a safety latch. Keep the Poison Control number (in the US: 1-800-222-1222) saved in your phone.</p>
+
+<h2>Involving Children Safely</h2>
+<p>Children can safely help in the kitchen from a young age — stirring, washing vegetables, measuring ingredients. Assign age-appropriate tasks and use a learning tower or step stool so they're stable. Cooking together builds skills and reduces the forbidden-fruit appeal of kitchen tools.</p>
+    `,
+    author: "James Whitfield, Pediatric Safety Specialist",
+    date: "2026-03-10",
+    readTime: "6 min read",
+    tags: ["kitchen safety", "burn prevention", "child safety", "household hazards"],
+  },
+  {
+    slug: "playground-safety-tips",
+    category: "safety",
+    title: "Playground Safety: Keeping Kids Safe While They Play",
+    excerpt: "Playgrounds are essential for development — and the site of 200,000+ ER visits per year. Know the risks.",
+    content: `
+<h2>The Importance of Play — and Its Risks</h2>
+<p>Outdoor play on playgrounds builds strength, coordination, social skills, and confidence. But playgrounds are also where many childhood injuries occur, mostly from falls. Most injuries are preventable with proper equipment, surfaces, and supervision.</p>
+
+<h2>What to Look for Before Your Child Plays</h2>
+<ul>
+<li><strong>Surface:</strong> Safe playgrounds have impact-absorbing surfaces — wood chips, rubber mulch, or poured rubber — at least 12 inches deep and extending 6 feet beyond equipment.</li>
+<li><strong>Age-appropriate equipment:</strong> Most playgrounds designate areas for ages 2–5 and 5–12. Use the right section.</li>
+<li><strong>No hazards:</strong> Check for broken equipment, exposed bolts, sharp edges, or openings between 3.5 and 9 inches (head entrapment risk).</li>
+<li><strong>Shade:</strong> Metal slides and dark surfaces get extremely hot in summer — test before your child uses them.</li>
+</ul>
+
+<h2>The Most Common Injuries and How to Prevent Them</h2>
+<p><strong>Falls from climbing equipment</strong> cause the majority of serious injuries. Teach children to hold on with both hands and to come down slides feet-first and one at a time. Supervise closely on monkey bars — these cause the most broken arms.</p>
+
+<h2>Swing Safety</h2>
+<p>Keep young children in bucket swings until they can hold on independently. Teach children to stay clear of moving swings. Never push a swing while facing it — walk to the side.</p>
+
+<h2>Clothing Considerations</h2>
+<p>Remove drawstring hoodies and scarves before playground use — these can catch on equipment and cause strangulation. Ensure shoelaces are tied. Helmets are not recommended on playgrounds, as they can get caught in equipment.</p>
+
+<h2>Supervision Guidelines by Age</h2>
+<p>Children under 5 need close, hands-on supervision. Ages 5–7 need watchful nearby supervision. Older children can play more independently but still benefit from an adult being present. Set clear boundaries about where they can go.</p>
+    `,
+    author: "Dr. Maria Santos, Pediatric Emergency Medicine",
+    date: "2026-03-17",
+    readTime: "6 min read",
+    tags: ["playground safety", "child safety", "outdoor play", "injury prevention"],
+  },
 ];
 
 export function getArticlesByCategory(categorySlug: string): Article[] {
