@@ -1271,5 +1271,5 @@ export function getCategoryBySlug(slug: string): Category | undefined {
 }
 
 export function getFeaturedArticles(count = 6): Article[] {
-  return articles.slice(0, count);
+  return [...articles].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, count);
 }
