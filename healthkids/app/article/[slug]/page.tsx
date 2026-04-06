@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { articles, getArticle, getCategoryBySlug, getArticlesByCategory } from "@/lib/data";
-import AdBanner from "@/components/AdBanner";
 import ArticleCard from "@/components/ArticleCard";
 
 type Props = {
@@ -75,9 +74,6 @@ export default async function ArticlePage({ params }: Props) {
             <span>{article.readTime}</span>
           </div>
 
-          {/* In-article Ad */}
-          <AdBanner size="rectangle" className="mb-8" />
-
           {/* Article Body */}
           <div
             className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-headings:font-bold prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-3 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-2 prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700 prose-ul:my-3 prose-ol:my-3 prose-strong:text-gray-900"
@@ -106,8 +102,6 @@ export default async function ArticlePage({ params }: Props) {
 
         {/* Sidebar */}
         <aside className="lg:w-72 space-y-6 flex-shrink-0">
-          <AdBanner size="sidebar" />
-
           {related.length > 0 && (
             <div>
               <h3 className="font-semibold text-gray-900 mb-4">Related Articles</h3>

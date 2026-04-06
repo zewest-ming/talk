@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { categories, getCategoryBySlug, getArticlesByCategory } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
-import AdBanner from "@/components/AdBanner";
 import Link from "next/link";
 
 type Props = {
@@ -65,7 +64,6 @@ export default async function CategoryPage({ params }: Props) {
 
         {/* Sidebar */}
         <aside className="lg:w-72 space-y-6">
-          <AdBanner size="sidebar" />
           <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
             <h3 className="font-semibold text-gray-900 mb-4">Other Topics</h3>
             <ul className="space-y-2">
