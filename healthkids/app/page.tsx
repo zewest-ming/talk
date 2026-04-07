@@ -3,7 +3,7 @@ import { categories, getFeaturedArticles } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
 
 export default function Home() {
-  const featured = getFeaturedArticles(6);
+  const featured = getFeaturedArticles(8);
 
   return (
     <div>
