@@ -25,10 +25,10 @@ export default function AdBanner({ slot, format = "auto", className = "" }: AdBa
     <ins
       ref={ref}
       className={`adsbygoogle ${className}`}
-      style={{ display: "block" }}
+      style={{ display: "block", maxHeight: "120px", overflow: "hidden" }}
       data-ad-client="ca-pub-7825982048677451"
       data-ad-slot={slot}
-      data-ad-format={format}
+      data-ad-format="horizontal"
       data-full-width-responsive="true"
     />
   );
