@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { categories, getFeaturedArticles } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
+import AdBanner from "@/components/AdBanner";
 
 export default function Home() {
   const featured = getFeaturedArticles(8);
@@ -32,6 +33,9 @@ export default function Home() {
       </section>
 
       <div className="max-w-6xl mx-auto px-4 py-10">
+        {/* Top Ad */}
+        <AdBanner slot="9308408797" className="mb-10" />
+
         {/* Categories Grid */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Browse by Topic</h2>

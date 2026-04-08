@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { articles, getArticle, getCategoryBySlug, getArticlesByCategory } from "@/lib/data";
 import ArticleCard from "@/components/ArticleCard";
+import AdBanner from "@/components/AdBanner";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -73,6 +74,9 @@ export default async function ArticlePage({ params }: Props) {
             <span>·</span>
             <span>{article.readTime}</span>
           </div>
+
+          {/* In-article Ad */}
+          <AdBanner slot="9308408797" className="mb-8" />
 
           {/* Article Body */}
           <div
