@@ -88,6 +88,33 @@ export const categories: Category[] = [
     icon: "🛡️",
     color: "bg-red-50 text-red-700 border-red-200",
   },
+  {
+    slug: "生活随笔",
+    nameZh: "生活随笔",
+    nameEn: "Life Notes",
+    descriptionZh: "生活观察、个人感悟与社会思考",
+    descriptionEn: "Life observations, personal reflections and social commentary",
+    icon: "✍️",
+    color: "bg-indigo-50 text-indigo-700 border-indigo-200",
+  },
+  {
+    slug: "科技AI",
+    nameZh: "科技AI",
+    nameEn: "Tech & AI",
+    descriptionZh: "人工智能、数码科技与未来趋势",
+    descriptionEn: "Artificial intelligence, technology and future trends",
+    icon: "🤖",
+    color: "bg-cyan-50 text-cyan-700 border-cyan-200",
+  },
+  {
+    slug: "文化娱乐",
+    nameZh: "文化娱乐",
+    nameEn: "Culture & Entertainment",
+    descriptionZh: "影视品评、历史人文与文化随笔",
+    descriptionEn: "Film reviews, history and cultural essays",
+    icon: "🎭",
+    color: "bg-amber-50 text-amber-700 border-amber-200",
+  },
 ];
 
 export const articles: Article[] = [
